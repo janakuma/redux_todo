@@ -5,7 +5,7 @@ import {selectUser} from '../actions/index';
 
 class UserList extends Component {
 
-    createListItems() {
+    createListItems(user) {
         return this.props.users.map((user) => {
             return (
                 <li
@@ -20,9 +20,11 @@ class UserList extends Component {
 
     render() {
         return (
-            <ul>
-                {this.createListItems()}
-            </ul>
+            <seciton>
+                <ul>
+                    {this.createListItems()}
+                </ul>
+            </seciton>
         )
     }
 }
@@ -37,4 +39,4 @@ function matchDispatchToProps(dispatch) {
     return bindActionCreators({selectUser: selectUser}, dispatch)
 }
 
-export default connect(mapStateProps)(UserList);
+export default connect(mapStateProps, matchDispatchToProps)(UserList);

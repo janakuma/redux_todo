@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+export default function(state={}, action) {
 
-class componentName extends Component {
-    render() {
-        return (
-            <div>
-
-            </div>
-        );
+    switch(action.type) {
+        case "USER_SELECTED":
+            return action.payload;
+            break;
     }
+    return state;
 }
-
-export default componentName;

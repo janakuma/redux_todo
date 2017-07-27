@@ -6,7 +6,7 @@ export default function() {
             last: "ROBERTS",
             age: 71,
             description: "Bucky is a react devloper and youtuber",
-            thumnail: "http://i.imgur.com"
+            thumbnail: "http://imgnews.naver.net/image/442/2017/07/26/0000062164_002_20170726105145714.jpg?type=w540"
         },
 
         {
@@ -15,7 +15,7 @@ export default function() {
             last: "ROBERTS",
             age: 71,
             description: "Bucky is a react devloper and youtuber",
-            thumnail: "http://i.imgur.com"
+            thumbnail: "http://imgnews.naver.net/image/442/2017/07/26/0000062164_002_20170726105145714.jpg?type=w540"
         },
 
         {
@@ -24,7 +24,7 @@ export default function() {
             last: "ROBERTS",
             age: 71,
             description: "Bucky is a react devloper and youtuber",
-            thumnail: "http://i.imgur.com"
+            thumbnail: "http://imgnews.naver.net/image/442/2017/07/26/0000062164_002_20170726105145714.jpg?type=w540"
         }
     ]
 }
